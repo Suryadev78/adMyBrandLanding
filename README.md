@@ -38,7 +38,7 @@ A sleek, dark-themed, interactive SaaS landing page built with **Next.js 14 App 
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/admybrand-ai-suite.git
+https://github.com/Suryadev78/adMyBrandLanding.git
 cd admybrand-ai-suite
 
 # Install dependencies
