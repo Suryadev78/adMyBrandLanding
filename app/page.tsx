@@ -10,8 +10,7 @@ import PricingSection from "@/components/sections/PricingSection";
 import Testimonials from "@/components/sections/Testimonials";
 import VideoDemo from "@/components/sections/VideoDemo";
 import { ContactForm } from "@/components/ui/ContactForm";
-// import ContactForm from "@/components/ui/ContactForm";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
