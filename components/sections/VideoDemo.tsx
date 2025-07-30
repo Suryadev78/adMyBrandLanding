@@ -4,6 +4,8 @@ import React from 'react';
 import { PlayCircle } from 'lucide-react';
 
 const VideoDemo = () => {
+  const videoSrc = process.env.NEXT_PUBLIC_CLOUDINARY_VIDEO_URL;
+  const posterSrc = process.env.NEXT_PUBLIC_CLOUDINARY_POSTER_URL;
   return (
     <section 
       id="about" 
@@ -48,8 +50,8 @@ const VideoDemo = () => {
           <div className="relative w-full rounded-3xl overflow-hidden shadow-2xl border border-white/20 dark:border-gray-700/30 backdrop-blur-xl">
           <video
   className="w-full h-auto rounded-2xl"
-  src="https://res.cloudinary.com/dliww2crk/video/upload/v1753819506/adMyBrandDemo_ijty5i.mp4"
-  poster="https://res.cloudinary.com/dliww2crk/image/upload/v1753820000/demo-poster.jpg" // 👈 add this line
+  src={videoSrc}
+  poster={posterSrc} 
   autoPlay
   loop
   muted
